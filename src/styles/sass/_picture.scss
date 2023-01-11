@@ -1,0 +1,23 @@
+.picture{
+    text-align: center;
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    ;
+    .me{
+        width:100%;
+        max-width:300px;
+    }
+    p{
+        font-size:1.5rem;
+        font-weight:500;
+        color:$light-red;
+        letter-spacing: 0.8rem;
+    }
+    .name{
+        font-size:2rem;
+        font-weight: 700;   
+    }
+
+}

@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
+nav {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  font-size: 2rem;
+  max-width: 350px;
+  padding: 20px 30px;
+}
+nav a {
+  color: #C3073F;
+}
+nav a:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+
+.picture {
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.picture .me {
+  width: 100%;
+  max-width: 300px;
+}
+.picture p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #C3073F;
+  letter-spacing: 0.8rem;
+}
+.picture .name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.aboutMe {
+  font-size: 1.5rem;
+  color: #950740;
+}
+.aboutMe__container {
+  font-size: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+.aboutMe__social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe__social-icons svg {
+  width: 30px;
+  background-color: #C3073F;
+  padding: 10px;
+  border-radius: 8px;
+}
+.aboutMe__line {
+  border-top: 2px solid #C3073F;
+  width: 150px;
+}
+
+.stack {
+  font-size: 1.4rem;
+  color: #950740;
+  padding: 0px 100px;
+}
+.stack__container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.stack__frontend, .stack__backend, .stack__devops {
+  border: 1px solid #4E4E50;
+  padding: 15px 30px;
+  width: 30%;
+}
+.stack__frontend p, .stack__backend p, .stack__devops p {
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 5px dashed #950740;
+  padding-bottom: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.stack__frontend span, .stack__backend span, .stack__devops span {
+  display: block;
+}
+.stack ul {
+  list-style-type: none;
+}
+.stack__row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 150px;
+  max-width: 250px;
+}
+.stack svg {
+  font-size: 3rem;
+}
+.stack__other-tecnologies {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  background-color: #1A1A1D;
+  background-image: url("../../assets/img/endless-constellation.svg");
+}
+body .tiperwriter {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid #950740;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+body section {
+  text-align: center;
+}
+body .hr-text {
+  font-size: 20px;
+  position: relative;
+  border: 0;
+  height: 1.5em;
+  font-size: 2rem;
+  margin: 50px 0px;
+}
+body .hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #C3073F, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+body .hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: #000;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #6F2232;
+  background-color: #C3073F;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
