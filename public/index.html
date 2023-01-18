@@ -25,8 +25,61 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>My Portfolio</title>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     </head>
   <body>
+    <script>
+      //SCROLL REVEAL
+       const scrollRevealFunc = () => {
+          ScrollReveal().reveal('.picture', {delay:300});
+          
+          ScrollReveal().reveal('.aboutMe__p-1', {delay:500});
+          ScrollReveal().reveal('.aboutMe__p-2', {delay:500});
+          ScrollReveal().reveal('.aboutMe__p-3', {delay:500});
+          ScrollReveal().reveal('.aboutMe__social-icons', {delay:600});
+          ScrollReveal().reveal('.stack__frontend', {delay:600});
+          ScrollReveal().reveal('.stack__backend', {delay:1000});
+          ScrollReveal().reveal('.stack__devops', {delay:1400});
+          ScrollReveal().reveal('.redux-logo', {delay:500});
+          ScrollReveal().reveal('.wordpress-logo', {delay:700});
+          ScrollReveal().reveal('.sass-logo-link', {delay:900});
+          ScrollReveal().reveal('.react-router-logo', {delay:1100});
+          ScrollReveal().reveal('.gmaps-logo', {delay:1300});
+          ScrollReveal().reveal('.bootstrap-logo', {delay:1500});
+          ScrollReveal().reveal('.bem-logo', {delay:1700});
+          ScrollReveal().reveal('.styled-components-logo', {delay:1900});
+          ScrollReveal().reveal('.project-0', {delay:500});
+          ScrollReveal().reveal('.project-1', {delay:800});
+          ScrollReveal().reveal('.project-2', {delay:1100});
+          ScrollReveal().reveal('.project-3', {delay:1400});
+          ScrollReveal().reveal('.project-4', {delay:1700});
+          ScrollReveal().reveal('.project-5', {delay:200});
+          ScrollReveal().reveal('.form__name', {delay:500});
+          ScrollReveal().reveal('.form__mail', {delay:800});
+          ScrollReveal().reveal('.form__message', {delay:1100});
+          ScrollReveal().reveal('.submit-input', {delay:1400});
+          ScrollReveal().reveal('.footer', {delay:300});
+          ScrollReveal().reveal('.copyright-icon', {delay:400});
+          ScrollReveal().reveal('.letter-1', {delay:500});
+          ScrollReveal().reveal('.letter-2', {delay:600});
+          ScrollReveal().reveal('.letter-3', {delay:700});
+          ScrollReveal().reveal('.letter-4', {delay:800});
+          ScrollReveal().reveal('.letter-5', {delay:900});
+          ScrollReveal().reveal('.letter-6', {delay:1000});
+          ScrollReveal().reveal('.letter-7', {delay:1100});
+          ScrollReveal().reveal('.letter-8', {delay:1200});
+          ScrollReveal().reveal('.letter-9', {delay:1300});
+          ScrollReveal().reveal('.letter-10', {delay:1400});
+          ScrollReveal().reveal('.letter-11', {delay:1500});
+          ScrollReveal().reveal('.letter-12', {delay:1600});
+          ScrollReveal().reveal('.letter-13', {delay:1700});
+          ScrollReveal().reveal('.letter-14', {delay:1800});
+          ScrollReveal().reveal('.letter-15', {delay:1900});
+          ScrollReveal().reveal('.letter-16', {delay:2000});
+        }
+        window.addEventListener('load', scrollRevealFunc);
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +92,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
   </body>
 </html>

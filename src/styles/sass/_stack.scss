@@ -37,13 +37,38 @@
         width: 100%;
         min-width: 150px;
         max-width: 250px;
+        &-2{
+            min-width: unset;
+            max-width: unset;
+            gap:40px;
+            justify-content: center;
+            align-items: center;
+        }
     }
     svg{
         font-size: 3rem;
-    }
+    } 
     &__other-tecnologies{
-        display: flex;
-        flex-direction: column;
-        width:100%;
+        margin-top:50px;
+        svg{
+            width:90px;
+            height:90px;
+        }
+        img{
+            width: 90px;
+            height: 90px;
+        }
+    }
+    
+    .sass-logo{
+        color:#bf4080;
+        width: 70px;
+        height: 70px;
+    }
+    .wp-logo{
+        color:#FFF;
+    }
+    .redux-logo{
+        color:#764abc;
     }
 }
