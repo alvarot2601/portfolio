@@ -7,11 +7,21 @@ nav{
     font-size: 2rem;
     max-width: 350px;
     padding:20px 30px;
+    position: sticky;
+    margin-top:30px;
+    top:-60px;
+    border-radius: 10px;
+    background-color: $grey;
+    z-index: 1;
+    transition: top 0.7s;
+    &:hover{
+        top:10px;
+    }
     a{
         color: $light-red;
     }
     a:hover{
-        color:#FFF;
+        color:#000;
         cursor: pointer;
     }
 }

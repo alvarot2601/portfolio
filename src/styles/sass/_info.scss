@@ -1,7 +1,7 @@
 .aboutMe{
     
     font-size:1.5rem;
-    color:$pink;
+    color:$grey;
     &__container{
         font-size: 1.5rem;
        max-width: 900px;
@@ -23,6 +23,5 @@
     &__line{
         border-top:2px solid $light-red;
         width:150px;
-    }
-    
+    }  
 }

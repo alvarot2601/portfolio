@@ -8,10 +8,10 @@ const Nav = () => {
             <a href="#">
                 <FontAwesomeIcon icon={faHouse} />
             </a>
-            <a>
+            <a href="#my_stack">
                 <FontAwesomeIcon icon={faCubes} />
             </a>
-            <a>
+            <a href="#my_projects">
                 <FontAwesomeIcon icon={faListCheck} />
             </a>
         </nav>
