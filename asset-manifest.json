@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bb09561d.css",
+    "main.js": "/portfolio/static/js/main.363e86ba.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/unsplash-project1.png": "/portfolio/static/media/unsplash-project1.48b9a97c8a9b8c245a4e.png",
+    "static/media/me.png": "/portfolio/static/media/me.e33662102516c766a5ab.png",
+    "static/media/umedi.png": "/portfolio/static/media/umedi.326770eabf8738543bbc.png",
+    "static/media/oxygenshop.png": "/portfolio/static/media/oxygenshop.7fe2ac6cb00097145dae.png",
+    "static/media/andel.png": "/portfolio/static/media/andel.b959ff763f5f46870d7a.png",
+    "static/media/SuisseIntl-Regular.ttf": "/portfolio/static/media/SuisseIntl-Regular.7ea99720633194a9e3c4.ttf",
+    "static/media/me_red.png": "/portfolio/static/media/me_red.b2a062106c0ab3304c64.png",
+    "static/media/hotel-miranda-proyecto.png": "/portfolio/static/media/hotel-miranda-proyecto.50b829deef7e4ab89803.png",
+    "static/media/me_white.png": "/portfolio/static/media/me_white.fca65ca69ad350538de0.png",
+    "static/media/me_black.png": "/portfolio/static/media/me_black.4e81ec44b79f6779097e.png",
+    "static/media/radiant-gradient.svg": "/portfolio/static/media/radiant-gradient.7b2398a79d30d1e8166e.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/react-router-mark-color.svg": "/portfolio/static/media/react-router-mark-color.9881d23645a292cf3f63bbcfc9207a5a.svg",
+    "static/media/endless-constellation.svg": "/portfolio/static/media/endless-constellation.ab89b359bd9a6cf2f3f1.svg",
+    "static/media/maps-icon.svg": "/portfolio/static/media/maps-icon.2134a845b39e5d27935f718ff89dde18.svg",
+    "main.bb09561d.css.map": "/portfolio/static/css/main.bb09561d.css.map",
+    "main.363e86ba.js.map": "/portfolio/static/js/main.363e86ba.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb09561d.css",
+    "static/js/main.363e86ba.js"
+  ]
+}
